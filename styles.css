@@ -736,7 +736,7 @@ input::-webkit-inner-spin-button {
     background: #FFF;
     box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
     position: relative;
-    margin:0;
+    margin: 0;
     margin-top: 5px;
 }
 
@@ -794,7 +794,7 @@ input::-webkit-inner-spin-button {
 
 .linkedin {
     position: absolute;
-    padding-top:24px;
+    padding-top: 24px;
     left: 324px;
     top: 8px;
 }
@@ -807,4 +807,146 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: 18px;
     /* 18px */
+}
+
+/* Footer */
+
+.lastline {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.footer {
+    margin: 60px 70px 30px 80px;
+    padding: 0;
+    gap: 30px;
+}
+
+.aboutaccio>p {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #676767;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.education>.lists>p,
+.company>.lists>p {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    color: #595959;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+.download {
+    margin-top: 30px;
+    background: #2f80ed;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primaryskyblue, #2F80ED);
+    color: var(--WHITE, #FFF);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.download>p {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.download:hover {
+    cursor: pointer;
+    background-color: var(--primaryskyblue, #2F80ED);
+    transform: scale(1.10);
+}
+
+.c-details>div>p {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    color: #595959;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+.social-media>img {
+    width: 40px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+
+.btn3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--primaryskyblue, #2F80ED);
+    color: var(--primaryskyblue, #2F80ED);
+    background: #FFF;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn3>img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.contactus>.c-details>.btn3>p {
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #2F80ED;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    background-color: var(--primaryskyblue, #ffffff);
+    transform: scale(1.10);
+}
+
+.endline {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+
+.bottom-left-image {
+    position: fixed;
+    bottom: 10px;
+    right: 45px;
+    z-index: 100;
+    cursor: pointer;
 }
